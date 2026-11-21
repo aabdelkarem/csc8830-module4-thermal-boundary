@@ -1,0 +1,7 @@
+{
+  "classical_runs_without_torch_or_sam2_imports": true,
+  "matches_preexisting_classical_mask_exactly": true,
+  "foreground_pixels": 2109,
+  "opencv_independent_run": "4.13.0",
+  "python_independent_run": "3.9.6"
+}

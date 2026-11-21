@@ -1,0 +1,59 @@
+{
+  "image_sha256": "999a56a57b2c159fd7a3b089dbfd0eae3dad20a6c626b4623aecb96fa83917f6",
+  "image_width_height": [
+    640,
+    512
+  ],
+  "manual_roi_xyxy": [
+    270,
+    225,
+    340,
+    335
+  ],
+  "manual_seed_xy": [
+    301,
+    284
+  ],
+  "palette": "white_hot_inferred_visually",
+  "otsu_threshold": 176.0,
+  "foreground_pixels": 2109,
+  "external_contours": 1,
+  "boundary_points": 247,
+  "contour_perimeter_pixels": 283.8650048971176,
+  "gaussian_kernel": [
+    5,
+    5
+  ],
+  "morphology_kernel": "3x3 ellipse; open then close",
+  "components_after_morphology": 1,
+  "algorithm_seconds_single_run": 0.008914874997572042,
+  "mask_sha256": "dab09719ad2887d41233c39ee1ae0db4bd010cfd015b15869700d8c66800af0e",
+  "machine_learning_used": false,
+  "threshold_sensitivity": [
+    {
+      "threshold": 156.0,
+      "foreground_pixels": 2307,
+      "iou_with_default_classical": 0.9141742522756827
+    },
+    {
+      "threshold": 166.0,
+      "foreground_pixels": 2196,
+      "iou_with_default_classical": 0.9603825136612022
+    },
+    {
+      "threshold": 176.0,
+      "foreground_pixels": 2109,
+      "iou_with_default_classical": 1.0
+    },
+    {
+      "threshold": 186.0,
+      "foreground_pixels": 2007,
+      "iou_with_default_classical": 0.9516358463726885
+    },
+    {
+      "threshold": 196.0,
+      "foreground_pixels": 1911,
+      "iou_with_default_classical": 0.9061166429587483
+    }
+  ]
+}

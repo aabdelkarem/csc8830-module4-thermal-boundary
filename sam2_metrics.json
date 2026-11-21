@@ -1,0 +1,28 @@
+{
+  "image_sha256": "999a56a57b2c159fd7a3b089dbfd0eae3dad20a6c626b4623aecb96fa83917f6",
+  "model": "SAM 2.1 Hiera Tiny",
+  "upstream_commit": "2b90b9f5ceec907a1c18123530e92e794ad901a4",
+  "model_config": "configs/sam2.1/sam2.1_hiera_t.yaml",
+  "checkpoint_url": "https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_tiny.pt",
+  "checkpoint_sha256": "7402e0d864fa82708a20fbd15bc84245c2f26dff0eb43a4b5b93452deb34be69",
+  "prompt_box_xyxy": [
+    270,
+    225,
+    340,
+    335
+  ],
+  "prompt_points": null,
+  "mask_input": null,
+  "multimask_output": false,
+  "device": "cpu",
+  "dtype": "float32",
+  "cpu_threads": 4,
+  "torch_version": "2.14.0",
+  "predicted_iou_score_not_measured_accuracy": 0.9098189473152161,
+  "foreground_pixels": 2663,
+  "mask_sha256": "8227c434dbb3b201619ffd46dbf432d23645e84da6e900b5abacaef33f480e35",
+  "model_load_seconds_single_run": 0.3757275419920916,
+  "inference_seconds_single_run": 0.9567328750126762,
+  "dynamic_multimask_via_stability": true,
+  "hole_or_sprinkle_cleanup": false
+}

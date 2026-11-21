@@ -1,0 +1,17 @@
+{
+  "intersection_pixels": 2109,
+  "union_pixels": 2663,
+  "iou": 0.7919639504318438,
+  "dice": 0.8839061190276614,
+  "only_classical_pixels": 0,
+  "only_sam2_pixels": 554,
+  "mean_symmetric_boundary_distance_pixels": 2.1681954860687256,
+  "symmetric_hd95_pixels": 7.0,
+  "hausdorff_max_pixels": 12.529964447021484,
+  "boundary_f1_within_2_pixels": 0.686908457636102,
+  "comparison_type": "Agreement of two estimates, not ground-truth accuracy.",
+  "same_original_image_and_box": true,
+  "full_resolution_comparison": true,
+  "classical_executed_independently": true,
+  "validation_checks_passed": true
+}
